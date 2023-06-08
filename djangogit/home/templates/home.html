@@ -1,0 +1,107 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{%static 'images/lilac.jpg'%}" class="d-block w-100" alt="IMAGE">
+    </div>
+    <div class="carousel-item">
+      <img src="{%static 'images/dress.jpg'%}" class="d-block w-100" alt="IMAGE">
+    </div>
+    <div class="carousel-item">
+      <img src="{%static 'images/pretty.jpg'%}" class="d-block w-100" alt="IMAGE">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<h2>SERVICES WE OFFER :)</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+    <h4>MAKING OF GARMENTS</h4>
+      <p>Here, we discuss designs, alterations and/or repair requirements with customers to ensure
+      that their specifications are met and constructing garments for customers based on their design ideas
+      specifications</p>
+    </div>
+    <div class="col-md-4">
+   <h4>MODIFICATION OF GARMENTS</h4>
+      <p>We also modify garments according to customer instructions, which includes tapering pant legs,
+      lining sheer garments, removing pockets, removing of darts and or pleats and adding padding</p>
+    </div>
+    <div class="col-md-4">
+     <h4>CUSTOMER SATISFACTION</h4>
+      <p>We are firm believers of the customer is always right and we create more successful customer
+      experiences and prevent a large number of service issues by pursuing every reasonable alternative to
+      satisfy the customers needs and we also provide customers with cost estimates for construction and/or
+      customized garments</p>
+    </div>
+  </div>
+</div>
+
+<h2>WHERE WE ARE LOCATED</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63821.070824340546!2d36.753990021679684!3d-1.2837267999999926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11c589438ef1%3A0x371dcbee9e43ae62!2sElegante%20Bespoke%20%7B%20Men%20And%20Ladies%20Tailored%20Suits%20and%20Designs%20%7D!5e0!3m2!1sen!2ske!4v1686205728757!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+
+<div class="card">
+  <div class="card-header">
+    THANK YOU FOR CONSIDERING US :)
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>Elegance is when the inside is as beautiful as the outside!!</p>
+      <footer class="blockquote-footer">COCO<cite title="Source Title">CHANEL</cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
